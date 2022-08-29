@@ -6,10 +6,11 @@ others. The aim of this project is to further explore the task of classifying ha
 
 INSPIRATION:
 
-  Our main inspiration is Doctor's Handwriting and the judgement of the judges which is very difficult to understand. The OCR will help us to identify those handwritten words and convert it into normal text.
+  Our main inspiration is Doctor's Handwriting and the judgement of the judges which is very difficult to understand. The OCR will help us to identify those handwritten words and convert it into normal text.Applications of offline handwriting recognition are numerous reading postal addresses, bank check amounts Doctor's prescription and forms. Furthermore, OCR plays an important role for digital libraries, allowing the entry of image textual information into computers by digitization, image restoration, and recognition methods.
+
   
   
- TECH STACK:
+TECH STACK:
  
 1.PRE-PROCESSING 
    Extract the text from the image and process it
@@ -23,3 +24,17 @@ INSPIRATION:
 4. CLASSIFICATION
    This is the decision making stage of recognition system. The classifier contains two hidden layers, using a log sigmoid activation function to train the algorithm
  
+ 
+How did we built it?
+
+  The main building block of this project is OCR. There are various types of OCR such as easyour, kerasor, pytesseract and so on. We searched for the OCR that would predict results with more accuracy. Thus Keras ocr and Pytesseract gave much accurate results.
+  
+  
+Problems we ran into:
+
+  The problems we faced were in the code itself such as importing the libraries, using the proper OCR and so on.Convering it into editable text was quite challenging.
+  
+Future changes and improvements:
+
+  Though the OCR gives some pretty accurate results it is not pretty accurate. In the future this project could be developed with a much developed OCR or we could work on developing the OCR itself.
+
