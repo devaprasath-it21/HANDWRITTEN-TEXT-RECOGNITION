@@ -12,7 +12,7 @@ INSPIRATION:
   
 TECH STACK:
  
-1.PRE-PROCESSING 
+1. PRE-PROCESSING 
    Extract the text from the image and process it
 
 2. SEGMENTATION 
@@ -25,16 +25,16 @@ TECH STACK:
    This is the decision making stage of recognition system. The classifier contains two hidden layers, using a log sigmoid activation function to train the algorithm
  
  
-How did we built it?
+HOW DID WE BUILT IT?
 
   The main building block of this project is OCR. There are various types of OCR such as easyour, kerasor, pytesseract and so on. We searched for the OCR that would predict results with more accuracy. Thus Keras ocr and Pytesseract gave much accurate results.
   
   
-Problems we ran into:
+PROBLEMS WE RAN INTO:
 
   The problems we faced were in the code itself such as importing the libraries, using the proper OCR and so on.Convering it into editable text was quite challenging.
   
-Future changes and improvements:
+FUTURE CHANGES AND IMPROVEMENTS:
 
   Though the OCR gives some pretty accurate results it is not pretty accurate. In the future this project could be developed with a much developed OCR or we could work on developing the OCR itself.
 
